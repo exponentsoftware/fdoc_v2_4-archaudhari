@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Blog</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
@@ -20,7 +21,8 @@
       </nav>
       <div class="search-bar">
         <input type="text" placeholder="Search">
-        <button type="submit">Search</button>
+        <button class="hover-effect" type="submit">Search</button>
+        <!-- <a href="#" class="hover-effect">Link</a> -->
       </div>
     </div>
   </header>
@@ -93,6 +95,12 @@
       </section>
       <aside class="sidebar">
         <!-- Add your sidebar content here -->
+        <div class="sidebar">
+          <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
+          <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
+          <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        </div>
       </aside>
     </main>
     <footer>
